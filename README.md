@@ -4,6 +4,7 @@ a dotfiled rice with a vertical bar (+ a togglebale second bar)
 ## Previews
 ![2024-08-03T01:57:27,151835401+03:00](https://github.com/user-attachments/assets/15a0654f-3395-49ea-9e7e-506e33e2e864)
 ![2024-08-03T01:57:36,070711581+03:00](https://github.com/user-attachments/assets/4c75aeaf-f0f9-4365-9fa9-ebda9a5bc614)
+![2024-08-03T01:58:13,437432500+03:00](https://github.com/user-attachments/assets/4978406a-5907-48ef-8ac4-1d5624458008)
 
 
 ## Packages/Dependencies Used
