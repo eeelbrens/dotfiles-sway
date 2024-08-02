@@ -9,7 +9,7 @@ a dotfiled rice with a vertical bar (+ a togglebale second bar)
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
-- wm: [`swayfx`]([https://github.com/swaywm/sway](https://github.com/WillPower3309/swayfx)) (forked from [`sway`](https://github.com/swaywm/sway) for rounded corners, shadows, and a few more)
+- wm: [`swayfx`]([https://github.com/swaywm/sway](https://github.com/WillPower3309/swayfx)) (forked from [`sway`](https://github.com/swaywm/sway) for rounded corners, shadows, and a few more enhancements)
     
 > [!NOTE]
 > The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
@@ -29,12 +29,8 @@ a dotfiled rice with a vertical bar (+ a togglebale second bar)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
 
 ### theming stuff
-- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
-- wallpaper: plain base01 color (`#2f383e`)
-- firefox theming: [`csshacks`](https://mrotherguy.github.io/firefox-csshacks/) and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
-> [!NOTE]
-> The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour (background color is `#2f383e`).
-- theme for websites: [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
-- theme for YouTube: [Enhancer for YouTube](https://www.mrfdev.com/enhancer-for-youtube).
-- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, non-nerd variant), [Rubik](https://fonts.google.com/specimen/Rubik) (sans-serif)
+- theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [gruvbox-dark-medium](https://tinted-theming.github.io/base16-gallery/)... here's [more info on morhetz's Gruvbox theme](https://github.com/morhetz/gruvbox)... for libadwaita apps (GTK4.0), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
+- wallpaper: [link](https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/gruv-abstract-maze.png) (original collection from [here](https://gruvbox-wallpapers.pages.dev))
+- spotify: [`spicetify-cli`](https://spicetify.app/) with modified [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
+- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, non-nerd variant)
 - cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown in screenshots)
