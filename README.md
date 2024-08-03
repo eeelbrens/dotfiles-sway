@@ -25,7 +25,7 @@ a dotfiled rice with a vertical bar (+ a togglebale second vertical bar)
 ### terminal stuff
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) modified with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
-- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
+- text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom image)
 
 ### theming stuff
