@@ -1,5 +1,5 @@
 # dotfiles-gruvbox
-a dotfiled rice with a vertical bar (+ a togglebale second bar)
+a dotfiled rice with a vertical bar (+ a togglebale second vertical bar)
 
 ## Previews
 ![2024-08-03T01:57:27,151835401+03:00](https://github.com/user-attachments/assets/15a0654f-3395-49ea-9e7e-506e33e2e864)
@@ -19,18 +19,18 @@ a dotfiled rice with a vertical bar (+ a togglebale second bar)
 - app launcher and logout options: [`rofi`](https://github.com/davatorium/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file).
 
 ### extra dependencies required (check after your sway config copy)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), `crontab` for scheduling low battery and charging dunst alerts [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin)
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), `crontab` for scheduling low battery and charging dunst alerts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
-- shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
+- shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) modified with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
 - text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
-- fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
+- fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom image)
 
 ### theming stuff
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [gruvbox-dark-medium](https://tinted-theming.github.io/base16-gallery/)... here's [more info on morhetz's Gruvbox theme](https://github.com/morhetz/gruvbox)... for libadwaita apps (GTK4.0), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
 - wallpaper: [link](https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/gruv-abstract-maze.png) (original collection from [here](https://gruvbox-wallpapers.pages.dev))
 - spotify: [`spicetify-cli`](https://spicetify.app/) with modified [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
-- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) (monospace, non-nerd variant)
+- fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono)
 - cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown in screenshots)
