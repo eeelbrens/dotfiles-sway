@@ -1,0 +1,42 @@
+/* user settings */
+:root {
+    --font-family: "Jetbrains Mono", monospace;
+    /*
+    --font-family: 'Anonymous Pro', monospace;
+    --font-family: 'Courier Prime', monospace;
+    --font-family: 'Cousine', monospace;
+    --font-family: 'Cutive Mono', monospace;
+    --font-family: 'DM Mono', monospace;
+    --font-family: 'Fira Mono', monospace;
+    --font-family: 'IBM Plex Mono', monospace;
+    --font-family: 'Inconsolata', monospace;
+    --font-family: 'Nanum Gothic Coding', monospace;
+    --font-family: 'PT Mono', monospace;
+    --font-family: 'Roboto Mono', monospace;
+    --font-family: 'Share Tech Mono', monospace;
+    --font-family: 'Source Code Pro', monospace;
+    --font-family: 'Space Mono', monospace;
+    --font-family: 'Ubuntu Mono', monospace;
+    --font-family: 'VT323', monospace;
+    */
+    --font-size: 14px;
+    --font-weight: 400; /* 200 : 900 */
+    --line-height: 1.2;
+
+    --font-size-lyrics: 14px; /* 1.5em (default) */
+
+    --font-family-header: "asciid";
+    --font-size-multiplier-header: 4;
+
+    --display-card-image: block; /* none | block */
+    --display-coverart-image: none; /* none | block */
+    --display-header-image: none; /* none | block */
+    --display-library-image: block; /* none | block */
+    --display-tracklist-image: none; /* none | block */
+    --display-spicetify-banner-ascii: block; /* none | block */
+    --display-music-banner-ascii: none; /* none | block */
+
+    --border-radius: 8px;
+    --border-width: 2px;
+    --border-style: solid; /* dotted | dashed | solid | double | groove | ridge | inset | outset */
+}
