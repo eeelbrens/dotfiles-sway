@@ -136,13 +136,11 @@
         // "timezone": "America/New_York",
         "format": "{:%H\n%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%y\n%m\n%d}"
     },
     "clock#date": {
         // "timezone": "America/New_York",
         "format": "{:%a, %b%d} ",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y/%m/%d}",
         "rotate": 90
     },
     "battery": {
@@ -156,7 +154,7 @@
         "format-full": "fl:\n{capacity}%",
         "format-charging": "ch:\n{capacity}%",
         "format-plugged": "pl:\n{capacity}%",
-        "format-alt": "time: {time}",
+        "tooltip-format": "time: {time}",
         "interval": 5,
         //"format-good": "", // An empty format will hide the module
     },
