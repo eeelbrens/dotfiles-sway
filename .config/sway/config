@@ -22,7 +22,7 @@ set $term kitty
 set $menu ~/.config/rofi/scripts/launcher_t4
 
 ### Output configuration
-output * bg ~/.config/sway/gruv-abstract-maze.png fill
+output * bg ~/.config/sway/nadekodrowndark.png fill
 
 ### Idle configuration & power button link to wlogout. Heavily relying on systemd here (also added [Login]HandlePowerKey=ignore to /etc/systemd/logind.conf).
 exec swayidle -w \
@@ -176,7 +176,7 @@ bindsym $mod+r mode "resize"
 include /etc/sway/config.d/*
 
 # GNOME exec (polkit)
-exec_always /usr/libexec/polkit-gnome-authentication-agent-1
+exec_always /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
 
 #GNOME GTK
 # set $gnome-schema org.gnome.desktop.interface
@@ -219,6 +219,8 @@ bindsym $mod+d bar 1 mode toggle
 set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
 exec rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob
 
+exec wl-paste -t text --watch clipman store --no-persist
+
 #Screenshots and Screen Records
 bindsym $mod+p exec grimshot --notify savecopy anything
 bindsym $mod+Shift+p exec `bash ~/.config/sway/toggle-screen-recorder.sh`
@@ -235,6 +237,9 @@ bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessUp exec brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
 bindsym XF86Calculator exec gnome-calculator
+
+bindgesture swipe:right workspace prev
+bindgesture swipe:left workspace next
 
 #SwayFX:
 corner_radius 8
