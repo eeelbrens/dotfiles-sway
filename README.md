@@ -13,12 +13,12 @@ a dotfiled rice with a vertical bar (+ a togglebale second vertical bar). tested
 > [!NOTE]
 > The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
 - main bottom bar: [`waybar`](https://github.com/Alexays/Waybar)
-- lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown, plain :) )
+- lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst)
 - app launcher and logout options: [`rofi`](https://github.com/davatorium/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file)
 
 ### extra dependencies required (check after your sway config copy)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), [scripts](.local/bin/) for scheduling low battery and charging alerts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds), [scripts](.local/bin/) for scheduling low battery and charging alerts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
@@ -33,4 +33,4 @@ a dotfiled rice with a vertical bar (+ a togglebale second vertical bar). tested
 - wallpaper: custom made [relative link](.config/sway/nadekodrowndark.png)
 - spotify: [`spicetify-cli`](https://spicetify.app/) with [modified](.config/spicetify/Themes/text/) [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
 - fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono)
-- cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown in screenshots)
+- cursor: [Bibata-Modern-Classic](https://www.bibata.live/) (not shown)
