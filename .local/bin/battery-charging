@@ -19,7 +19,7 @@ case "$BATTERY_STATE" in
   BATTERY_ICON="charging"
   ;;
 "discharging")
-  BATTERY_CHARGING="Disharging"
+  BATTERY_CHARGING="Discharging"
   BATTERY_ICON="discharging"
   ;;
 esac
