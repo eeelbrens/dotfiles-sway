@@ -1,0 +1,25 @@
+@import url(window_control_placeholder_support.css);
+@import url(linux_gtk_window_control_patch.css);
+@import url(toolbars_below_content.css);
+@import url(urlbar_centered_text.css);
+
+#sidebar-header, #sidebar-splitter {
+  display: none;
+}
+
+#navigator-toolbox {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+#nav-bar {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+
+#TabsToolbar {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
