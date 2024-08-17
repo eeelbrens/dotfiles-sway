@@ -5,6 +5,7 @@ a dotfiled rice with a vertical bar (+ a togglebale second vertical bar). tested
 ![2024-08-17T21:05:44,704559941+03:00](https://github.com/user-attachments/assets/9eb36c33-3bb0-4a2f-a2df-c2292e1946b6)
 ![2024-08-17T21:07:29,729463961+03:00](https://github.com/user-attachments/assets/fbb00480-a897-4864-b65b-53b34f189e0f)
 ![2024-08-17T22:09:37,672697948+03:00](https://github.com/user-attachments/assets/e0685cc6-65ce-4946-9f09-f61f72c0ef77)
+![2024-08-17T22:54:51,021276569+03:00](https://github.com/user-attachments/assets/e3ee4c93-4616-45fb-94fb-6810a70125c6)
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
