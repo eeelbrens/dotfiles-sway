@@ -27,12 +27,9 @@ unset rc
 
 PS1="\[\e[32m\]\w -> \[\e[m\]"
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-export PATH=$PATH:/home/helvetica/.spicetify
-. "$HOME/.cargo/env"
-
-export EDITOR=/home/linuxbrew/.linuxbrew/bin/nvim
+# export PATH=$PATH:/home/helvetica/.spicetify
 
 [[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+source ~/.local/share/blesh/ble.sh
+source ~/.local/share/blesh/ble.sh
 source ~/.local/share/blesh/ble.sh
