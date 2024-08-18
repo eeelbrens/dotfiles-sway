@@ -30,6 +30,8 @@ return {
   -- disable trouble
   { "folke/trouble.nvim", enabled = false },
 
+  { "clang-format", enabled = false },
+
   -- override nvim-cmp and add cmp-emoji
   {
     "hrsh7th/nvim-cmp",
@@ -68,6 +70,7 @@ return {
     "neovim/nvim-lspconfig",
     ---@class PluginLspOpts
     opts = {
+      autoformat = false,
       ---@type lspconfig.options
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
@@ -184,6 +187,9 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "clangd",
+        "nvim-dap",
+        "nvim-dap-ui",
         "shellcheck",
         "shfmt",
         "flake8",
