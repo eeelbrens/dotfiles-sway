@@ -1,5 +1,5 @@
 # dotfiles-gruvbox
-a dotfiled rice with a vertical bar (+ a togglebale second vertical bar). tested for functionality and reproduceability on Arch Linux (kernel 6.10.5)
+personal dotfiled rice with a vertical bar (+ a togglebale second vertical bar). I'll probably continue to support this repo as I add more and more personal mods into it.
 
 ## Previews
 ![2024-08-17T21:05:44,704559941+03:00](https://github.com/user-attachments/assets/9eb36c33-3bb0-4a2f-a2df-c2292e1946b6)
