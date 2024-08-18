@@ -31,7 +31,7 @@ a dotfiled rice with a vertical bar (+ a togglebale second vertical bar). tested
 ### theming stuff and miscellaneous
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [gruvbox-dark-medium](https://tinted-theming.github.io/base16-gallery/)... here's [more info on morhetz's Gruvbox theme](https://github.com/morhetz/gruvbox)... for libadwaita apps (GTK4.0), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)
 - browser: Firefox CSS mods from [csshacks](https://github.com/MrOtherGuy/firefox-csshacks)
-- wallpaper: custom made [relative link](.config/sway/nadekodrowndark.png)
+- wallpaper: custom made ([link](.config/sway/nadekodrowndark.png))
 - spotify: [`spicetify-cli`](https://spicetify.app/) with [modified](.config/spicetify/Themes/text/) [text theme](https://github.com/spicetify/spicetify-themes/tree/master/text)
 - video player: [`mpv`](https://mpv.io/)
 - fonts: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono)
