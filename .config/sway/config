@@ -240,6 +240,8 @@ bindsym XF86Calculator exec gnome-calculator
 
 bindgesture swipe:right workspace prev
 bindgesture swipe:left workspace next
+bindgesture swipe:up exec $menu
+bindgesture swipe:down exec pkill rofi
 
 #SwayFX:
 corner_radius 8
