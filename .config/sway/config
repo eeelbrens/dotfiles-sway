@@ -221,9 +221,9 @@ exec rm -f $WOBSOCK && mkfifo $WOBSOCK && tail -f $WOBSOCK | wob
 
 exec wl-paste -t text --watch clipman store --no-persist
 
-#Screenshots and Screen Records
+#Screenshots and Color Picker
 bindsym $mod+p exec grimshot --notify savecopy anything
-bindsym $mod+Shift+p exec `bash ~/.config/sway/toggle-screen-recorder.sh`
+bindsym $mod+Shift+p exec ~/.config/sway/color-picker.sh
 
 #Audio/Brightness Key Bindings
 bindsym XF86AudioPlay exec playerctl play-pause
