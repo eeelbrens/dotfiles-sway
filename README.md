@@ -19,7 +19,7 @@ personal dotfiled rice with a vertical bar (+ a togglebale second vertical bar).
 - app launcher and logout options: [`rofi`](https://github.com/davatorium/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file)
 
 ### extra dependencies required (check after your sway config copy)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
+- sway: `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots and color picking), `swayidle` (for idle settings), `swaybg` (for backgrounds), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
