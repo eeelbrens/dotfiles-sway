@@ -223,7 +223,7 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 #Screenshots and Color Picker
 bindsym $mod+p exec grimshot --notify savecopy anything
-bindsym $mod+Shift+p exec ~/.config/sway/color-picker.sh
+bindsym $mod+Shift+p exec /usr/local/bin/color-picker
 
 #Audio/Brightness Key Bindings
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -238,6 +238,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set 5%+ | sed -En 's/.*\(([0-9]+)
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
 bindsym XF86Calculator exec gnome-calculator
 
+#Gestures:
 bindgesture swipe:right workspace prev
 bindgesture swipe:left workspace next
 bindgesture swipe:up exec $menu
