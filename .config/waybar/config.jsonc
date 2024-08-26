@@ -64,7 +64,8 @@
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "disconnected",
         "format-disabled": "disabled",
-        "rotate": 270
+        "rotate": 270,
+        "on-click": "kitty -e nmtui"
     },
     "pulseaudio": {
         "scroll-step": 5, // %, can be a float
