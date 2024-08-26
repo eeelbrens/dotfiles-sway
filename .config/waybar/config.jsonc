@@ -1,196 +1,196 @@
 // -*- mode: jsonc -*-
 [
-  {
-    "id": "1",
-    "ipc": true,
-    "position": "right",
-    "height": 1048,
-    "width": 40,
-    "spacing": 1,
-    "margin-right": 12,
-    "modules-right": [ 
-        "pulseaudio",
-        "custom/separator",
-        "backlight",
-        "custom/separator",
-        "custom/separator",
-    ],
-    "modules-center": [
-    ],
-    "modules-left": [
-        "custom/separator",
-        "custom/separator",
-        "network",
-        "custom/separator",
-        "sway/window",
-    ],
-    "sway/window": {
-        "format": "{title}",
-        "max-length": 40,
-        "rotate": 270
-    },
-    "cpu": {
-        "format": "cpu: {usage}%",
-        "tooltip": false,
-        "rotate": 270
-    },
-    "memory": {
-        "format": "memory: {}%",
-        "rotate": 270
-    },
-    "temperature": {
-        // "thermal-zone": 2,
-        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        "critical-threshold": 60,
-        "format-critical": "CRITICAL: {temperatureC}°C",
-        "format": "temp: {temperatureC}°C",
-        "rotate": 270
-    },
-    "backlight": {
-        "scroll-step": 5,
-        "format": "brightness: {percent}%",
-        "rotate": 270
-    },
-    "power-profiles-daemon": {
-        "format": "{profile}",
-        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-        "tooltip": true,
-        "rotate": 270
-    },
-    "network": {
-        "format-wifi": "wifi: {essid}",
-        "format-ethernet": "eth: {ipaddr}/{cidr}",
-        "tooltip-format": "{ifname} via {gwaddr}",
-        "format-linked": "{ifname} (No IP)",
-        "format-disconnected": "disconnected",
-        "format-disabled": "disabled",
-        "rotate": 270,
-        "on-click": "kitty -e nmtui"
-    },
-    "pulseaudio": {
-        "scroll-step": 5, // %, can be a float
-        "format": "audio: {volume}% {format_source}",
-        "format-source": "mic: {volume}%",
-        "format-source-muted": "muted",
-        "max-volume": 150,
-        "on-click": "pavucontrol",
-        "rotate": 270
-    },
-    "custom/separator": {
-        "format": " ",
-        "tooltip": false,
-        "rotate": 270
-    },
-  },
-  {
-    "id": "0",
-    "position": "right",
-    "height": 1048,
-    "width": 48,
-    "spacing": 2,
-    "margin-right": 12,
-    "modules-left": [
-        "custom/separator",
-        "sway/scratchpad",
-        "sway/mode",
-        "custom/yearp",
-        "custom/separator",
-        "mpris",
-    ],
-    "modules-center": [
-       "sway/workspaces",
-    ],
-    "modules-right": [
-        "custom/separator",
-        "sway/language",
-        "custom/separator",
-        "clock",
-        "clock#date",
-        "idle_inhibitor",
-        "custom/separator",
-        "battery",
-        "custom/separator"
-    ],
-    "sway/mode": {
-        "format": " {}",
-        "rotate": 90
-    },
-    "sway/scratchpad": {
-        "format": "hi",
-        "show-empty": true,
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
-    },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "awake",
-            "deactivated": "dizzy"
+    {
+        "id": "1",
+        "ipc": true,
+        "position": "right",
+        "height": 1048,
+        "width": 40,
+        "spacing": 1,
+        "margin-right": 12,
+        "modules-right": [ 
+            "pulseaudio",
+            "custom/separator",
+            "backlight",
+            "custom/separator",
+            "custom/separator",
+        ],
+        "modules-center": [
+        ],
+        "modules-left": [
+            "custom/separator",
+            "custom/separator",
+            "network",
+            "custom/separator",
+            "sway/window",
+        ],
+        "sway/window": {
+            "format": "{title}",
+            "max-length": 40,
+            "rotate": 270
         },
-        "rotate": 90
-    },
-    "tray": {
-      // "icon-size": 21,
-      "spacing": 10,
-    },
-    "clock": {
-        // "timezone": "America/New_York",
-        "format": "{:%H\n%M}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-    },
-    "clock#date": {
-        // "timezone": "America/New_York",
-        "format": "{:%a, %b%d} ",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "rotate": 90
-    },
-    "battery": {
-        "states": {
-            "great": 100,
-            "good": 90,
-            "warning": 30,
-            "critical": 10
+        "cpu": {
+            "format": "cpu: {usage}%",
+            "tooltip": false,
+            "rotate": 270
         },
-        "format": "pw:\n{capacity}%",
-        "format-full": "fl:\n{capacity}%",
-        "format-charging": "ch:\n{capacity}%",
-        "format-plugged": "pl:\n{capacity}%",
-        "tooltip-format": "time: {time}",
-        "interval": 5,
-        //"format-good": "", // An empty format will hide the module
+        "memory": {
+            "format": "memory: {}%",
+            "rotate": 270
+        },
+        "temperature": {
+            // "thermal-zone": 2,
+            // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+            "critical-threshold": 60,
+            "format-critical": "CRITICAL: {temperatureC}°C",
+            "format": "temp: {temperatureC}°C",
+            "rotate": 270
+        },
+        "backlight": {
+            "scroll-step": 5,
+            "format": "brightness: {percent}%",
+            "rotate": 270
+        },
+        "power-profiles-daemon": {
+            "format": "{profile}",
+            "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+            "tooltip": true,
+            "rotate": 270
+        },
+        "network": {
+            "format-wifi": "wifi: {essid}",
+            "format-ethernet": "eth: {ipaddr}/{cidr}",
+            "tooltip-format": "{ifname} via {gwaddr}",
+            "format-linked": "{ifname} (No IP)",
+            "format-disconnected": "disconnected",
+            "format-disabled": "disabled",
+            "rotate": 270,
+            "on-click": "kitty -e nmtui"
+        },
+        "pulseaudio": {
+            "scroll-step": 5, // %, can be a float
+            "format": "audio: {volume}% {format_source}",
+            "format-source": "mic: {volume}%",
+            "format-source-muted": "muted",
+            "max-volume": 150,
+            "on-click": "pavucontrol",
+            "rotate": 270
+        },
+        "custom/separator": {
+            "format": " ",
+            "tooltip": false,
+            "rotate": 270
+        },
     },
-    "custom/yearp": {
-        "format": "yp:\n{:.3}",
-        "exec": "~/.config/waybar/yearprogress.sh",
-        "tooltip-format": "year progress: {}",
-        "interval": 300,
-    },
+    {
+        "id": "0",
+        "position": "right",
+        "height": 1048,
+        "width": 48,
+        "spacing": 2,
+        "margin-right": 12,
+        "modules-left": [
+            "custom/separator",
+            "sway/scratchpad",
+            "sway/mode",
+            "custom/yearp",
+            "custom/separator",
+            "mpris",
+        ],
+        "modules-center": [
+            "sway/workspaces",
+        ],
+        "modules-right": [
+            "custom/separator",
+            "sway/language",
+            "custom/separator",
+            "clock",
+            "clock#date",
+            "idle_inhibitor",
+            "custom/separator",
+            "battery",
+            "custom/separator"
+        ],
+        "sway/mode": {
+            "format": " {}",
+            "rotate": 90
+        },
+        "sway/scratchpad": {
+            "format": "hi",
+            "show-empty": true,
+            "tooltip": true,
+            "tooltip-format": "{app}: {title}"
+        },
+        "idle_inhibitor": {
+            "format": "{icon}",
+            "format-icons": {
+                "activated": "awake",
+                "deactivated": "dizzy"
+            },
+            "rotate": 90
+        },
+        "tray": {
+            // "icon-size": 21,
+            "spacing": 10,
+        },
+        "clock": {
+            // "timezone": "America/New_York",
+            "format": "{:%H\n%M}",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        },
+        "clock#date": {
+            // "timezone": "America/New_York",
+            "format": "{:%a, %b%d} ",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+            "rotate": 90
+        },
+        "battery": {
+            "states": {
+                "great": 100,
+                "good": 90,
+                "warning": 30,
+                "critical": 10
+            },
+            "format": "pw:\n{capacity}%",
+            "format-full": "fl:\n{capacity}%",
+            "format-charging": "ch:\n{capacity}%",
+            "format-plugged": "pl:\n{capacity}%",
+            "tooltip-format": "time: {time}",
+            "interval": 5,
+            //"format-good": "", // An empty format will hide the module
+        },
+        "custom/yearp": {
+            "format": "yp:\n{:.3}",
+            "exec": "~/.config/waybar/yearprogress.sh",
+            "tooltip-format": "year progress: {}",
+            "interval": 300,
+        },
         "battery#bat2": {
-        "bat": "BAT2",
-    },
-    "mpris": {
-        "format": "{artist} - {title}",
-        "format-paused": "{artist} - {title}",
-        "max-length": 30,
-        "interval": 1,
-        "rotate": 90
-    },
-    "sway/language": {
-        "format": {},
-        "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
-    },
-    "keyboard-state": {
-        "numlock": true, "capslock": true,
-        "format": {
-            "numlock": "N",
-            "capslock": "C"
+            "bat": "BAT2",
         },
-        "rotate": 90
-    }, 
-    "custom/separator": {
-        "format": " ",
-        "tooltip": false,
-        "rotate": 90
-    }
-  },
+        "mpris": {
+            "format": "{artist} - {title}",
+            "format-paused": "{artist} - {title}",
+            "max-length": 30,
+            "interval": 1,
+            "rotate": 90
+        },
+        "sway/language": {
+            "format": {},
+            "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
+        },
+        "keyboard-state": {
+            "numlock": true, "capslock": true,
+            "format": {
+                "numlock": "N",
+                "capslock": "C"
+            },
+            "rotate": 90
+        }, 
+        "custom/separator": {
+            "format": " ",
+            "tooltip": false,
+            "rotate": 90
+        }
+    },
 ]
