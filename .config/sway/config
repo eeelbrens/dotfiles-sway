@@ -8,6 +8,9 @@ for_window [app_id="^.*"] border pixel 3px
 
 font pango: Rubik Regular 12
 
+### autotiling
+exec_always autotiling
+
 ### Variables
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
