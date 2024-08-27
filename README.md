@@ -1,11 +1,21 @@
 # dotfiles-gruvbox
-personal dotfiled rice with a vertical bar (+ a togglebale second vertical bar). I'll probably continue to support this repo as I add more and more personal mods into it.
+personal daily-driver dotfiles for ~Sway~ SwayFX and my Arch Linux setup. I'll probably continue to support this repo as I add more and more personal mods into it.
 
 ## Previews
 ![2024-08-17T21:05:44,704559941+03:00](https://github.com/user-attachments/assets/9eb36c33-3bb0-4a2f-a2df-c2292e1946b6)
 ![2024-08-17T21:07:29,729463961+03:00](https://github.com/user-attachments/assets/fbb00480-a897-4864-b65b-53b34f189e0f)
 ![2024-08-17T22:09:37,672697948+03:00](https://github.com/user-attachments/assets/e0685cc6-65ce-4946-9f09-f61f72c0ef77)
 ![2024-08-17T22:54:51,021276569+03:00](https://github.com/user-attachments/assets/e3ee4c93-4616-45fb-94fb-6810a70125c6)
+---
+
+## Features
+- A gruvbox-themed desktop all across the board.
+- ~SwayWM~ SwayFX config with dynamic tiling (BSPWM-style), workspace switching with window movement across containers, rounded corners, shadows, and more.
+- Vertical bar (waybar) with a second toggleable bar (Preview #3).
+- Personal nvim configs (LazyVim) tailored for IDE usage.
+- Spotify (spicetify), rofi and kitty themes.
+
+---
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
@@ -19,7 +29,7 @@ personal dotfiled rice with a vertical bar (+ a togglebale second vertical bar).
 - app launcher and logout options: [`rofi`](https://github.com/davatorium/rofi) with themes based on configs from [adi1090x's repo](https://github.com/adi1090x/rofi?tab=readme-ov-file)
 
 ### extra dependencies required (check after your sway config copy)
-- sway: [`autotiling`](https://github.com/nwg-piotr/autotiling) (bspwm-like autotiling), `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots and color picking), `swayidle` (for idle settings), `swaybg` (for backgrounds), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
+- sway: [`autotiling`](https://github.com/nwg-piotr/autotiling) (BSPWM-style autotiling), `wl-clipboard` (for copying and pasting), `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit-gnome` (user authentication for `nautilus`, you could change your policykit and file manager as you please), `grim` and `grimshot` (for screenshots and color picking), `swayidle` (for idle settings), `swaybg` (for backgrounds), `cronie`/`cron` and `udev` for [low battery and charging alert](usr/local/bin/) scripts (from [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin))
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
