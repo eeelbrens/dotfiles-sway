@@ -21,7 +21,7 @@ personal daily-driver dotfiles for ~Sway~ SwayFX and my Arch Linux setup. I'll p
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
-- wm: [`swayfx`]([https://github.com/swaywm/sway](https://github.com/WillPower3309/swayfx)) (forked from [`sway`](https://github.com/swaywm/sway) for rounded corners, shadows, and a few more enhancements)
+- wm: [`swayfx`](https://github.com/WillPower3309/swayfx) (forked from [`sway`](https://github.com/swaywm/sway) for rounded corners, shadows, and a few more enhancements)
     
 > [!NOTE]
 > The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
