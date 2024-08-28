@@ -244,8 +244,10 @@ bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]
 bindsym XF86Calculator exec gnome-calculator
 
 #Gestures:
-bindgesture swipe:right workspace prev
-bindgesture swipe:left workspace next
+bindgesture swipe:3:right workspace prev
+bindgesture swipe:3:left workspace next
+bindgesture swipe:4:right move container to workspace prev, workspace prev
+bindgesture swipe:4:left move container to workspace next, workspace next
 bindgesture swipe:up exec $menu
 bindgesture swipe:down exec pkill rofi
 

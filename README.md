@@ -11,7 +11,7 @@ personal daily-driver dotfiles for ~Sway~ SwayFX and my Arch Linux setup. I'll p
 
 ## Features
 - A gruvbox-themed desktop all across the board.
-- ~SwayWM~ SwayFX config with dynamic tiling (BSPWM-style), workspace switching with window movement across containers, rounded corners, shadows, and more.
+- ~SwayWM~ SwayFX config with dynamic tiling (BSPWM-style), workspace switching with window movement across containers, gesture navigation and window movement, rounded corners, shadows, and more.
 - Vertical bar (waybar) with a second toggleable bar (Preview #3).
 - Personal nvim configs (LazyVim) tailored for IDE usage.
 - Spotify (spicetify), rofi and kitty themes.
