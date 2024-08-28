@@ -36,6 +36,7 @@ exec swayidle -w \
          for_window [class="^.*"] inhibit_idle fullscreen
          for_window [app_id="^.*"] inhibit_idle fullscreen
          for_window [app_id="Calculator"] floating enable;
+         for_window [app_id="qalculate-gtk"] floating enable;
          for_window [app_id="firefox" title="Picture-in-Picture"] floating enable; sticky enable
 
          bindsym XF86PowerOff exec ~/.config/rofi/scripts/powermenu_t1

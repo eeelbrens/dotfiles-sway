@@ -7,6 +7,10 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+vim.opt.tabstop = 8 -- Always 8 (see :h tabstop)
+vim.opt.softtabstop = 4 -- What you expecting
+vim.opt.shiftwidth = 4 -- What you expecting
+
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
