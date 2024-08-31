@@ -1,5 +1,8 @@
 # dotfiles-gruvbox
-personal daily-driver dotfiles for ~Sway~ SwayFX and my Arch Linux setup. I'll probably continue to support this repo as I add more and more personal mods into it.
+> [!NOTE]
+> I'm using [this setup](https://github.com/eeelbrens/dotfiles-hyprland) right now as I moved all of my workflow to hyprland. Go check it out!
+> 
+personal daily-driver dotfiles for ~Sway~ SwayFX and my Arch Linux setup.
 
 ## Previews
 ![2024-08-17T21:05:44,704559941+03:00](https://github.com/user-attachments/assets/9eb36c33-3bb0-4a2f-a2df-c2292e1946b6)
