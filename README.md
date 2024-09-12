@@ -1,4 +1,4 @@
-# dotfiles-gruvbox
+# dotfiles-sway
 > [!NOTE]
 > I'm using [this setup](https://github.com/eeelbrens/dotfiles-hyprland) right now as I moved all of my workflow to hyprland. Go check it out!
 > 
